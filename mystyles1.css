@@ -11,7 +11,7 @@ body{
 
 .first-inner{
     background-color: black;
-    background-image: url('\images\header-background.jpg');
+    background-image: url('/images/header-background.jpg');
     color: white;
     padding-left: 100px;
     padding-right: 105px;
