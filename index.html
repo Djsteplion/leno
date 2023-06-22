@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="developer"  content="Olayiwola Stephen, @djsteplion on twitter, olayiwola stephen on linkedin" >
+    <title>Leno Mobile App Website</title>
+
+
+     <!--Stylesheet For Desktop Devices-->
+     <link rel="stylesheet" href="css\mystyles1.css">
+
+     <!--Stylesheet For Tablet Devices-->
+     <link rel="stylesheet" href="css\mystyles2.css"> 
+
+      <!--Stylesheet For Mobile Devices-->
+    <link rel="stylesheet" href="css\mystyles3.css">
+
+     <!---Link to font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!---link to font awesome on this laptop, i must change it to the online link, when uploading to github-->
+    <link rel="stylesheet" href="C:\Users\User\Desktop\Backup\STEVO\Naishare website\Other folder\font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.min.css">
+     
+    
+    <!---links to bootstrap 4.0.0  on this laptop, i must change it to the online link, when uploading to github-->
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+   
+    <!--end of bootstrap related links-->
+   
+    <!--Link to Swiper.css--->
+   <link href="css\swiper.css" rel="stylesheet">
+       
+   
+</head>
+<body>
+
+    <!------ Menu  --->
+    <div class="mySidenav" id="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#" class="linkss">Home</a>
+        <a href="#intro" class="linkss">Article</a>
+        <a href="#services" class="linkss">Features</a>
+        <a href="#callme" class="linkss">Pricing</a>
+        <a href="#about" >Drop</a>
+        <a href="#contact" class="linkss">Contact</a>
+        <a href="#"><i class="fa fa-facebook" id="face"></i><i class="fa fa-twitter" id="twitt"></i></a>
+    </div>
+
+
+    <!------First Container --->
+    <div class="first-container">
+        <div class="first-inner">
+            <div class="head-logo-and-links">
+             
+                <div class="logos">
+                    <img src="images\logo.svg">
+                </div>
+                
+                <div class="head-links">
+                    <a href="#home" class="linksz">Home</a>
+                    <a href="#article" class="linksz">Article</a>
+                    <a href="#features" class="linksz">Features</a>
+                    <a href="#pricing"  class="linksz">Pricing</a>
+                    <a href="#"class="linksz">Drop</a>
+                    <a href="#contact" class="linksz">Contact</a>
+            
+                    <span>
+                    <i class="fa fa-facebook" id="face"></i>
+                    <i class="fa fa-twitter" id="twitt"></i>
+                    </span>   
+                </div><!--end of head-links(navigation bar)-->
+
+                    <div class="head">
+                    <div style="color:white; font-size:30px; cursor:pointer" class="menu" onclick="openNav()">&#9776</div>
+                    </div>
+             
+            </div><!--end of head-logo-and-links-->
+
+            <!--Menu and logo for mobile devices-->
+            <!--<div class="menu-for-mobile">
+            <div class="rest-menu">
+               
+                    <img src = "images\logo.svg">
+                
+                <div class="mob-menu" style="color:white; font-size:20px; cursor:pointer" onclick="openNav()">
+                    &#9776;
+                </div>
+            </div>
+            </div>
+            <!--End of menu and logo for mobile devices-->
+
+
+                <div class="home-content-container"><!--beginning of the div,containing smartphone picture and home text-->
+                   <div class="div1">
+                     <h1>MOBILE APP <br class="break"> FOR DESIGNERS </h1>
+                     <p> Leno is one of the easiest and feature packed marketing<br>
+                         automation app in the market.Download it today.
+                    </p>
+                    <div class="link-buttons">
+                        <a href="#" id="apple"><i class="fa fa-apple"></i> For Apple</a>
+                        <a href="#"><i class="fa fa-play"></i> For Android</a>
+                    </div>
+                   </div>
+                   <div class="div2">
+                      <img src="images\header-smartphones.png" alt="smartphone">
+                </div>
+            </div><!--end of the div,containing smartphone picture and home text-->
+         </div><!--end of first inner container-->
+    </div><!--This is the end of the first container-->
+
+     
+     
+     <!- 
+    /*********************/
+   /*********************/
+  /* SECOND CONTAINER  */
+ /*********************/
+/*********************/
+--->
+
+
+   <!-- Testimonials -->
+ <div class="second-container">
+ <div class="second-inner">  
+ <div class="slider-1 bg-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+        <div class="row">
+            <div class="col-lg-12">
+
+                <!-- Card Slider -->
+                <div class="slider-container">
+                    <div class="swiper-container card-slider">
+                        <div class="swiper-wrapper">
+                            
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="images/testimonial-1.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <p class="testimonial-text">Mauris facilisis urna urna, non volutpat tortor rhoncus nec. Vivamus consectetur dui quis libero tempus ut eleifend</p>
+                                        <p class="testimonial-author">Jude Thorn - Designer</p>
+                                    </div>
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+    
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="images/testimonial-2.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <p class="testimonial-text">Mauris facilisis urna urna, non volutpat tortor rhoncus nec. Vivamus consectetur dui quis libero tempus ut eleifend</p>
+                                        <p class="testimonial-author">Roy Smith - Developer</p>
+                                    </div>
+                                </div>        
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+    
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="images/testimonial-3.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <p class="testimonial-text">Mauris facilisis urna urna, non volutpat tortor rhoncus nec. Vivamus consectetur dui quis libero tempus ut eleifend</p>
+                                        <p class="testimonial-author">Marsha Singer - Marketer</p>
+                                    </div>
+                                </div>        
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+    
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="images/testimonial-4.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <p class="testimonial-text">Mauris facilisis urna urna, non volutpat tortor rhoncus nec. Vivamus consectetur dui quis libero tempus ut eleifend</p>
+                                        <p class="testimonial-author">Tim Shaw - Designer</p>
+                                    </div>
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+    
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="images/testimonial-5.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <p class="testimonial-text">Mauris facilisis urna urna, non volutpat tortor rhoncus nec. Vivamus consectetur dui quis libero tempus ut eleifend</p>
+                                        <p class="testimonial-author">Lindsay Spice - Designer</p>
+                                    </div>
+                                </div>        
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+    
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="images/testimonial-6.jpg" alt="alternative">
+                                    <div class="card-body">
+                                        <p class="testimonial-text">Mauris facilisis urna urna, non volutpat tortor rhoncus nec. Vivamus consectetur dui quis libero tempus ut eleifend</p>
+                                        <p class="testimonial-author">Ann Black - Developer</p>
+                                    </div>
+                                </div>        
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+                        
+                        </div> <!-- end of swiper-wrapper -->
+    
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <!-- end of add arrows -->
+    
+                    </div> <!-- end of swiper-container -->
+                </div> <!-- end of slider-container -->
+                <!-- end of card slider -->
+
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of slider-1 -->
+ </div>
+ </div>
+<!-- end of testimonials -->
+
+
+
+     <!--
+    /**********************/
+   /*********************/
+  /*  THIRD CONTAINER  */
+ /*********************/
+/*********************/
+---->
+
+
+<div class="third-container">
+    <div class="third-inner">
+      <h1>FEATURES</h1>
+      <p>Leno was designed based on input from personal development coaches<br>
+        and popular trainers so it offers all required features
+      </p>
+
+      <div class="latch-menu">
+        <span class="latch1" id="latch1" onclick="color1()" ><i class="fa fa-cog"></i> CONFIGURING</span>
+        <span class="latch2" id="latch2" onclick="color2()"><i class="fa fa-binoculars"></i> TRACKING</span>
+        <span class="latch3" id="latch3" onclick="color3()"><i class="fa fa-search"></i> MONITORING</span>
+      </div>
+
+      <div class="configuring" id="configuring">
+        <div class="forDesktop">
+       <div class="configure1">
+        <div class="configure1a">
+         <div class="configure1ai">
+          <h4>Goal Setting</h4>
+          <p>Like any self improving process, everything strarts
+             with setting your goals and committing to them<br>
+           </p>
+         </div>
+         <div class="configure1aii">
+            <i class="fa fa-compass" id="comp1"></i>
+         </div>
+        </div>
+
+        <div class="configure1a">
+            <div class="configure1ai">
+             <h4>Visual Editor</h4>
+             <p>Leno provides a well designed and ergonomic Visual
+                editor for you to edit your quick notes.<br> 
+            </p>
+            </div>
+            <div class="configure1aii">
+               <i class="fa fa-code" id="comp2"></i>
+            </div>
+           </div>
+
+           <div class="configure1a">
+            <div class="configure1ai">
+             <h4>Refined Options</h4>
+             <p>Each option packaged in the app's menus
+                is provided in order to improve you personally.
+               </p>
+            </div>
+            <div class="configure1aii">
+               <i class="fa fa-diamond" id="comp3"></i>
+            </div>
+           </div>
+       </div>
+        </div>
+           <!---I made this class ( "ForTablets" )  hidden for Desktop Mode, and made visible for Tablets and Mobile Devices-->
+           <div class="ForTablets">
+            <div class="configure1">
+            <div class="configure1a">
+                <div class="configure1aii">
+                    <i class="fa fa-compass" id="comp1"></i>
+                 </div>
+                <div class="configure1ai">
+                 <h4>Goal Setting</h4>
+                 <p>Like any self improving process, everything strarts
+                    with setting your goals and committing to them<br>
+                  </p>
+                </div>
+               </div>
+       
+               <div class="configure1a">
+                <div class="configure1aii">
+                    <i class="fa fa-code" id="comp2"></i>
+                 </div>
+                   <div class="configure1ai">
+                    <h4>Visual Editor</h4>
+                    <p>Leno provides a well designed and ergonomic Visual
+                       editor for you to edit your quick notes.<br> 
+                   </p>
+                   </div>
+                  </div>
+       
+                  <div class="configure1a">
+                    <div class="configure1aii">
+                        <i class="fa fa-diamond" id="comp3"></i>
+                     </div>
+                   <div class="configure1ai">
+                    <h4>Refined Options</h4>
+                    <p>Each option packaged in the app's menus
+                       is provided in order to improve you personally.
+                      </p>
+                   </div>
+                  </div>
+           </div>
+       </div>
+       
+        <div class="configure2">
+            <img src="images\features-smartphone-1.png">
+        </div>
+        <div class="configure3">
+            <div class="configure3a">
+                <div class="configure3aii">
+                    <i class="fa fa-calendar" id="comp4"></i>
+                 </div>
+                <div class="configure3ai">
+                 <h4>Calendar Input</h4>
+                 <p>Schedule your appointments,
+                    meetings and periodical  
+                    evaluations using the tools
+                  </p>
+                </div>
+                
+               </div>
+       
+               <div class="configure3a">
+                <div class="configure3aii">
+                    <i class="fa fa-book" id="comp5"></i>
+                 </div>
+                   <div class="configure3ai">
+                    <h4>Easy Reading</h4>
+                    <p>Reading focus mode for long form
+                        articles, ebooks and other
+                        materials with long text
+                      </p>
+                   </div>
+                   
+                  </div>
+       
+                  <div class="configure3a">
+                    <div class="configure3aii">
+                        <i class="fa fa-cube" id="comp6"></i>
+                     </div>
+                   <div class="configure3ai">
+                    <h4>Good Foundation</h4>
+                    <p>Get a solid foundation for your self
+                        development efforts. Try leno
+                        mobile app for devices.
+                      </p>
+                   </div>
+                  </div>
+        </div>
+      </div>
+
+
+      <div class="tracking" id="tracking">
+        <div class="track">
+        <div class="trackingImg">
+         <img src="images\features-smartphone-2.png">
+        </div>
+        <div class="trackingText">
+            <div class="trackingHeaderText">
+             <h1>Track Result Based On Your </h1>
+             <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Perferendis dolorum accusamus sapiente, ullam quod facere ipsum consequatur laboriosam blan</p>
+            </div>
+            <div class="trackingOtherText">
+
+               <div class="trackingOtherText1">
+                <div class="tracking3a">
+                    <div class="tracking3aii">
+                        <i class="fa fa-cube" id="comp6"></i>
+                     </div>
+                   <div class="tracking3ai">
+                    <h4>Good Foundation</h4>
+                    <p>Get a solid foundation for your self
+                        development efforts. Try leno
+                        mobile app for devices.
+                      </p>
+                   </div>
+                  </div>
+
+                  <div class="tracking3a">
+                    <div class="tracking3aii">
+                        <i class="fa fa-book" id="comp5"></i>
+                     </div>
+                   <div class="tracking3ai">
+                    <h4>Easy Reading</h4>
+                    <p>Reading focus mode for long form
+                        articles, ebooks and other
+                        materials with long text
+                      </p>
+                   </div>
+                  </div>
+
+                  <div class="tracking3a">
+                    <div class="tracking3aii">
+                        <i class="fa fa-compass" id="comp1"></i>
+                     </div>
+                   <div class="tracking3ai">
+                    <h4>Goal Setting</h4>
+                    <p>Like any self improving process, everything strarts
+                       with setting your goals and committing to them<br>
+                     </p>
+                   </div>
+                  </div>
+               </div>
+               <div class="trackingOtherText2">
+                <div class="tracking3a">
+                    <div class="tracking3aii">
+                        <i class="fa fa-calendar" id="comp4"></i>
+                     </div>
+                   <div class="tracking3ai">
+                    <h4>Calendar Input</h4>
+                 <p>Schedule your appointments,
+                    meetings and periodical  
+                    evaluations using the tools
+                  </p>
+                   </div>
+                  </div>
+
+                  <div class="tracking3a">
+                    <div class="tracking3aii">
+                        <i class="fa fa-code" id="comp2"></i>
+                     </div>
+                   <div class="tracking3ai">
+                    <h4>Visual Editor</h4>
+             <p>Leno provides a well designed and ergonomic Visual
+                editor for you to edit your quick notes.<br> 
+            </p>
+                   </div>
+                  </div>
+
+                  <div class="tracking3a">
+                    <div class="tracking3aii">
+                        <i class="fa fa-diamond" id="comp3"></i>
+                     </div>
+                   <div class="tracking3ai">
+                    <h4>Refined Options</h4>
+                    <p>Each option packaged in the app's menus
+                       is provided in order to improve you personally.
+                      </p>
+                   </div>
+                  </div>
+
+               </div>
+            </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="monitoring" id="monitoring">
+       <div class="monitor">
+        <div class="trackingText">
+            <div class="trackingOtherText">
+               <div class="trackingOtherText1">
+                <div class="tracking3a">
+                    <div class="tracking3aii">
+                        <i class="fa fa-cube" id="comp6"></i>
+                     </div>
+                   <div class="tracking3ai">
+                    <h4>Good Foundation</h4>
+                    <p>Get a solid foundation for your self
+                        development efforts. Try leno
+                        mobile app for devices.
+                      </p>
+                   </div>
+                  </div>
+
+                  <div class="tracking3a">
+                    <div class="tracking3aii">
+                        <i class="fa fa-book" id="comp5"></i>
+                     </div>
+                   <div class="tracking3ai">
+                    <h4>Easy Reading</h4>
+                    <p>Reading focus mode for long form
+                        articles, ebooks and other
+                        materials with long text
+                      </p>
+                   </div>
+                  </div>
+
+                  <div class="tracking3a">
+                    <div class="tracking3aii">
+                        <i class="fa fa-compass" id="comp1"></i>
+                     </div>
+                   <div class="tracking3ai">
+                    <h4>Goal Setting</h4>
+                    <p>Like any self improving process, everything strarts
+                       with setting your goals and committing to them<br>
+                     </p>
+                   </div>
+                  </div>
+               </div>
+               <div class="trackingOtherText2">
+                <div class="tracking3a">
+                    <div class="tracking3aii">
+                        <i class="fa fa-calendar" id="comp4"></i>
+                     </div>
+                   <div class="tracking3ai">
+                    <h4>Calendar Input</h4>
+                 <p>Schedule your appointments,
+                    meetings and periodical  
+                    evaluations using the tools
+                  </p>
+                   </div>
+                  </div>
+
+                  <div class="tracking3a">
+                    <div class="tracking3aii">
+                        <i class="fa fa-code" id="comp2"></i>
+                     </div>
+                   <div class="tracking3ai">
+                    <h4>Visual Editor</h4>
+             <p>Leno provides a well designed and ergonomic Visual
+                editor for you to edit your quick notes.<br> 
+            </p>
+                   </div>
+                  </div>
+
+                 <div class="tracking3a">
+                    <div class="tracking3aii">
+                        <i class="fa fa-diamond" id="comp3"></i>
+                      </div>
+                      <div class="tracking3ai">
+                      <h4>Refined Options</h4>
+                      <p>Each option packaged in the app's menus
+                       is provided in order to improve you personally.
+                      </p>
+                   </div>
+                 </div>
+
+               </div>  
+            </div>
+            <div class="monitoringFooterText">
+                <h1>Monitoring Tools Evaluation</h1>
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                   Perferendis dolorum accusamus sapiente, ullam quod facere ipsum consequatur laboriosam blan</p>
+               </div>
+        </div>
+        <div class="monitoringImg">
+            <img src="images\features-smartphone-3.png">
+           </div>
+           </div>
+      </div>
+    </div>
+</div>
+
+<!--
+/*********************/
+/*********************/
+/* FOURTH CONTAINER  */
+/*********************/
+/********************/
+---->
+
+
+<div class="fourth-container">
+    <div class="fourth-inner">
+      <div class="previewText">
+        <h1>PREVIEW</h1>
+        <p>It's time to target the right customers for your busiess with
+            the help of <br> Leno's patented user tracking and segmentation technology.
+        </p>
+      </div>
+
+      <div class="previewVideo">
+        <div class="previewinner" id="previewinner">
+        <span class="play"><a href="#"><i class="fa fa-play"></i></a></span>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<!--
+/*********************/
+/*********************/
+/* FIFTH CONTAINER */
+/*********************/
+/********************---->
+
+
+<div class="fifth-container">
+    <div class="fifth-inner">
+        <div class="details">
+            <div class="detailsImg">
+              <img src="images\details-1.png">
+            </div>
+            <div class="detailsText">
+              <h1>Start using Leno<br>
+                  today and set your <br>
+                  long term goals
+            </h1> 
+            <p>Leno can easily help you track your personal development<br>
+               evolution if you take the time to properly setup your goals<br>
+               at the beginning of the training process.Check it out
+            </p>
+            <span class="lightboxbtn">Lightbox</span>
+            </div>
+        </div>
+        <div class="details" id="calendars">
+            <div class="detailsText">
+              <h1>The calendar<br>
+                  feature helps you<br>
+                  schedule tasks
+            </h1> 
+            <p>The calendar input function enables the user to setup<br>
+               training, meditation and relaxation sessions with ease.Just<br>
+               open the feature and start setting your time. 
+            </p>
+            <span class="lightboxbtn">Lightbox</span>
+            </div>
+            <div class="detailsImg">
+                <img src="images\details-2.png">
+              </div>
+        </div>
+
+        <div class="achievements">
+            <div class="happy customers">
+                <i class="fa fa-users" id="users"></i>
+                <h1 class="numba">231</h1>
+                <p>Happy Customers</p>
+            </div>
+
+            <div class="happy customers">
+                <i class="fa fa-code" id="users"></i>
+                <h1 class="numba">385</h1>
+                <p>Issues Resolved</p>
+            </div>
+
+            <div class="happy customers">
+                <i class="fa fa-cog" id="users"></i>
+                <h1 class="numba">159</h1>
+                <p>Good Reviews</p>
+            </div>
+
+            <div class="happy customers">
+                <i class="fa fa-rocket" id="users"></i>
+                <h1 class="numba">128</h1>
+                <p>Case Studies</p>
+            </div>
+
+            <div class="happy customers">
+                <i class="fa fa-comment" id="users"></i>
+                <h1 class="numba">216</h1>
+                <p>Press Articles</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--
+/*********************/
+/*********************/
+/* SIXTH CONTAINER */
+/*********************/
+/********************---->
+
+
+<div class="sixth-container">
+    <div class="sixth-inner">
+            <h1><span>SCRE</span><span class="ens">ENS</span>HOTS</h1>
+             <!-- Screenshots -->
+             <div class="slider-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            
+                            <!-- Image Slider -->
+                            <div class="slider-container">
+                                <div class="swiper-container image-slider">
+                                    <div class="swiper-wrapper">
+                                        
+                                        <!-- Slide -->
+                                        <div class="swiper-slide">
+                                            <img class="img-fluid" src="images/screenshot-1.png" alt="alternative">
+                                        </div>
+                                        <!-- end of slide -->
+                                        
+                                        <!-- Slide -->
+                                        <div class="swiper-slide">
+                                            <img class="img-fluid" src="images/screenshot-2.png" alt="alternative">
+                                        </div>
+                                        <!-- end of slide -->
+    
+                                        <!-- Slide -->
+                                        <div class="swiper-slide">
+                                            <img class="img-fluid" src="images/screenshot-3.png" alt="alternative">
+                                        </div>
+                                        <!-- end of slide -->
+    
+                                        <!-- Slide --
+                                        <div class="swiper-slide">
+                                            <img class="img-fluid" src="images/screenshot-4.png" alt="alternative">
+                                        </div>
+                                        <!- end of slide -->
+    
+                                        <!-- Slide -->
+                                        <div class="swiper-slide">
+                                            <img class="img-fluid" src="images/screenshot-5.png" alt="alternative">
+                                        </div>
+                                        <!-- end of slide -->
+                                        
+                                        <!-- Slide -->
+                                        <div class="swiper-slide">
+                                            <img class="img-fluid" src="images/screenshot-6.png" alt="alternative">
+                                        </div>
+                                        <!-- end of slide -->
+    
+                                        <!-- Slide -->
+                                        <div class="swiper-slide">
+                                            <img class="img-fluid" src="images/screenshot-7.png" alt="alternative">
+                                        </div>
+                                        <!-- end of slide -->
+    
+                                        <!-- Slide -->
+                                        <div class="swiper-slide">
+                                            <img class="img-fluid" src="images/screenshot-8.png" alt="alternative">
+                                        </div>
+                                        <!-- end of slide -->
+    
+                                        <!-- Slide -->
+                                        <div class="swiper-slide">
+                                            <img class="img-fluid" src="images/screenshot-9.png" alt="alternative">
+                                        </div>
+                                        <!-- end of slide -->
+    
+                                        <!-- Slide -->
+                                        <div class="swiper-slide">
+                                            <img class="img-fluid" src="images/screenshot-10.png" alt="alternative">
+                                        </div>
+                                        <!-- end of slide -->
+                                        
+                                    </div> <!-- end of swiper-wrapper -->
+    
+                                    <!-- Add Arrows -->
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                    <!-- end of add arrows -->
+    
+                                </div> <!-- end of swiper-container -->
+                            </div> <!-- end of slider-container -->
+                            <!-- end of image slider -->
+                            
+                        </div> <!-- end of col -->
+                    </div> <!-- end of row -->
+                </div> <!-- end of container -->
+            </div> <!-- end of slider-2 -->         
+    </div> <!-- end of sixth-inner -->
+</div> <!-- end of sixth-container -->
+ <!-- end of screenshots -->
+
+
+
+ <!--
+/*********************/
+/*********************/
+/* SEVENTH CONTAINER */
+/*********************/
+/********************---->
+
+<div class="SEVENTH-CONTAINER"> 
+    <div class="SEVENTH-inner"> 
+      <div class="Seventh-text">
+       <h4>
+        Download Leno today to see the<br>
+         benefits and   enjoy the  results faster<br> 
+         than  any other app out   there.            
+       </h4>
+          <div class="link-buttons">
+           <a href="#" id="apple"><i class="fa fa-apple"></i> For iOS</a>
+           <a href="#"><i class="fa fa-play"></i> For Android</a>
+        </div>
+      </div>
+     <div class="Seventh-image">
+    <img  src="images\download.png">
+  </div>
+ </div>
+</div>
+
+
+
+ <!--
+/*********************/
+/*********************/
+/* EIGHT-CONTAINER */
+/*********************/
+/********************---->
+
+<div class="EIGHT-CONTAINER">
+  <div class="EIGHT-INNERMOST">
+    <div class="EIGHT-INNER">
+      <div class="about">
+        <h4>About  Leno</h4>
+        <p>Leno is a mobile app: HTML,CSS and BOOTSTRAP landing page<br>
+            template, built to help  you create great  basic websites<br>
+            for apps and then, grow the user base.
+        </p>
+      </div>
+      <div class="liinks">
+        <h4>Links</h4>
+        Important: Terms and Conditions,Privacy policy<br>
+        Useful: Colorpicker,Icon Libary, Illustrations<br>
+        Menu:Article, Features, Pricing, Contact
+      </div>
+      <div class="social">
+      <i class="fa fa-facebook" id="faces"></i>
+      <i class="fa fa-twitter"  id="twitts"></i>
+      <i class="fa fa-pinterest" id="twitts"></i>
+      <i class="fa fa-instagram" id="twitts"></i>
+      <div class="social-text">
+     <p> we would love to hear from you<br>
+      contact@leno.com</p>
+          </div>
+       </div>
+    </div>
+    <div class="copywright">
+        <p>Copyright &copy;2023 Olayiwola Stephen</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+ 
+
+
+ 
+       
+    
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js\bootstrap.min.js "></script> <!-- Bootstrap framework -->
+<script src="js\swiper.min.js "></script> <!-- Swiper for image and text sliders -->
+<script src="js\lenoScript.js"></script><!--major script-->
+</body>
+</html>
+
+
+
+
+
+
+ 

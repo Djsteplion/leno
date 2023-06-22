@@ -1,0 +1,397 @@
+@media  screen and ( max-width: 1030px){
+    
+body{
+    overflow-x: hidden;
+    position:relative; 
+    
+}
+
+.head{
+display: block;
+padding-top: 35px;
+}
+
+.logos{
+    padding-top: 30px;
+}
+
+/*********************/
+/*********************/
+/* FIRST CONTAINER */
+/*********************/
+/*********************/
+
+.head-links{
+    display: none;
+}
+
+.first-inner{
+    padding-left: 70px;
+    
+}
+
+.head-logo-and-links{
+    padding-left: 0px;
+    margin-left: 0px;   
+}
+
+.home-content-container{
+    display: block; 
+    width: 100%;
+}
+
+.div1{
+    text-align: center;
+    width: 100%;
+}
+
+.break{
+    display: none;
+}
+
+.link-buttons a{
+    color: white;
+    text-decoration-line: none;
+    background: #00C9DB;
+    padding: 13px 25px;
+    background: #00C9DB;
+    border-radius: 16px;
+    font-weight: 600;
+    transition: 0.4s;
+    
+}
+
+.link-buttons a:hover{
+    color: #00C9DB;
+    text-decoration-line: none;
+    border: 1px solid #00C9DB;
+    padding: 13px 25px;
+    background: transparent;
+    border-radius: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+.div2{
+    width: 100%;
+    display: block;
+}
+
+.div2 img{
+    width: 100%;
+
+}
+
+
+/*********************/
+/*********************/
+/* THIRD CONTAINER */
+/*********************/
+/*********************/
+
+.configure1{
+    
+    float: none;
+    width: 100%;
+    
+}
+.configure2{
+    float: none;
+    width: 100%;
+    
+}
+
+.configure2 img{
+    width: 70%;
+    padding-left: 18%;
+}
+
+.configure3{
+    float: none;
+    width: 100%;  
+}
+
+.ForTablets{
+    display: none;
+    
+}
+.configure1a{
+   width: 100%;
+   margin-bottom: 15px;
+   flex-direction: row-reverse;
+    
+}
+
+.configure1ai {
+    width: 88%;
+    margin-left: 0;
+    padding-left: 10px;
+    
+ }
+
+.configure1ai h4{
+    text-align: start;
+    padding-left: 0px;
+ }
+ 
+ 
+ .configure1ai p{
+     text-align:start ;
+     font-size: 17px;
+     padding-left: 0px;
+  }
+
+  .configure1aii{
+    width: 12%;
+  }
+
+  .configure2{
+    margin-bottom: 50px;
+  }
+
+ .configure3a{
+    width: 100%;
+    display: flex;
+    margin-bottom:15px ;
+    
+}
+
+.configure3ai {
+    width: 88%;
+    padding-left: 10px;
+ }
+.configure3aii{
+    width: 12%;
+}
+
+.configuring{
+    padding-bottom: 30px;
+    padding-left: 45px;
+}
+    
+   
+.track{
+    display: block; 
+}
+
+.trackingImg{
+    width: 100% !important;
+}
+
+.trackingImg img{
+       width: 50%;
+       padding-top: 30px;
+       padding-bottom: 30px;
+       padding-left: 40px;  
+}
+
+
+.trackingOtherText{
+    display: block;
+    padding-left: 20px;
+ }
+
+ .trackingHeaderText h1{
+    padding-left: 40px;
+}
+
+.trackingHeaderText p{
+    padding-left: 40px;  
+}
+
+
+.monitor{
+    display: block;
+  }
+
+  .monitoringImg img{
+
+    padding-left: 40px;
+  }
+
+  .monitoringFooterText h1 , .monitoringFooterText p{
+    padding-left: 40px;
+  }
+
+
+
+
+
+/*********************/
+/*********************/
+/* FOURTH CONTAINER */
+/*********************/
+/*********************/
+.previewVideo{
+    width: 100%;
+    align-items: center;
+}
+.previewinner{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top:150px ;
+    padding-bottom: 150px;
+    margin: 50px;
+    
+}
+
+.play a{
+    text-align: center;
+    font-size: 35px;
+    border: 1px solid lightseagreen;
+    border-radius: 100%;
+    padding: 15px 15px 15px 25px;
+    background-color: transparent;
+    transition: 0.5s;
+    color: white;
+}
+
+.play a:hover{
+    background-color:#00C9DB; 
+    color: white!important;
+    cursor: pointer;
+  }
+
+
+
+/*********************/
+/*********************/
+/* Fifth CONTAINER */
+/*********************/
+/********************/
+
+
+.details{
+    flex-direction: column;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+.detailsText{
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+
+.detailsText p{
+   letter-spacing: 0.7px;
+}
+
+#calendars{
+    padding-left: 50px;
+    
+}
+
+
+/*********************/
+/*********************/
+/* SEVENTH CONTAINER */
+/*********************/
+/*********************/
+
+
+.SEVENTH-inner{
+    display: block;
+    padding-top: 30px ;
+}
+
+.Seventh-image{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.Seventh-text{
+    padding-top: 70px ;
+}
+
+
+/*********************/
+/*********************/
+/* EIGHT-CONTAINER */
+/*********************/
+/********************/
+
+.EIGHT-INNER{
+    display: block;
+} 
+
+.about{
+   padding-bottom: 20px;
+}
+
+.liinks{
+    padding-bottom: 20px;
+}
+
+.social{
+    padding-top: 20px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.social-text{
+    padding-top: 20px;
+    text-align: left;
+    padding-bottom: 0;
+}
+
+.copywright{
+    text-align: left;
+    padding-left: 50px;
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

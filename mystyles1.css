@@ -1,0 +1,1038 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+.first-inner{
+    background-color: black;
+    background-image: url('C:/Users/User/Desktop/STEVO/Leno Website/Leno main/images/header-background.jpg');
+    color: white;
+    padding-left: 100px;
+    padding-right: 105px;
+    padding-bottom: 100px;
+}
+
+.head{
+    display: none;
+}
+
+.mySidenav{
+    height: 100%;
+    width: 0;
+    top:0;
+    right: 0;
+    position: fixed;
+    background-color: black;
+    opacity: 0.9;
+    z-index: 1;
+    padding-top: 12px;
+    transition: 0.5s;
+}
+
+.mySidenav a{
+    text-decoration: none;
+    display:block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 8px 8px 20px 32px;
+    color: white;
+    transition: 0.3s;
+}
+
+.mySidenav a:hover{
+    color:rgb(5, 216, 153);
+}
+ 
+.closebtn{
+    text-align: center;
+    top: 0;
+    font-size: 36px;
+}
+
+.menu-for-mobile{
+    display: none;
+}
+.logos{
+    width: 150px;
+    height: 100px;
+    padding-top: 10px;
+
+}
+
+.logos img{
+    width: 100%;
+}
+
+
+
+.head-logo-and-links{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+}
+
+.head-links{
+    padding-top: 20px;
+}
+
+.head-links a{
+    color: white;
+    text-decoration-line: none;
+    padding: 10px 12px;
+}
+
+.linksz:hover{
+    color: #00C9DB;
+    text-decoration-line: none;
+}
+
+#face{
+    border:  5px solid #00C9DB ;
+    border-radius: 75%;
+    background: #00C9DB;
+    padding: 5px 8px;
+ 
+}
+
+#twitt{
+    border:  3px solid #00C9DB ;
+    border-radius: 50%;
+    background: #00C9DB;
+    padding: 7px 8px;
+  
+}
+
+#face:hover{
+    background-color: white;
+    color: #00C9DB;
+    border:  5px solid white ;
+}
+
+#twitt:hover{
+    background-color: white;
+    color: #00C9DB;
+    border:  3px solid white ;
+}
+
+.link-buttons a{
+    color: white;
+    text-decoration-line: none;
+    background: #00C9DB;
+    padding: 23px 40px;
+    background: #00C9DB;
+    border-radius: 32px;
+    font-weight: 580;
+    transition: 0.4s;
+    
+}
+
+.link-buttons a:hover{
+    color: #00C9DB;
+    text-decoration-line: none;
+    border: 1px solid #00C9DB;
+    padding: 23px 40px;
+    background: transparent;
+    border-radius: 32px;
+    font-weight: 580;
+    cursor: pointer;
+    
+}
+
+.link-buttons{
+    margin-top: 50px;
+}
+
+#apple{
+    margin-right: 20px;
+}
+
+.div1 h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.div1 p{
+    font-size: 20px;
+}
+
+.home-content-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.div1{
+    padding-top: 140px;
+    width: 50%;
+}
+
+.div2{
+    padding-top: 40px;
+}
+
+
+
+.designer{
+    z-index: 7;
+    position: relative;
+    
+    animation-name: nftss;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+              }  
+
+@keyframes nftss  {
+
+ from{
+        opacity: 0;
+}
+
+
+  to {
+        opacity: 1;
+        visibility: none;
+}
+
+
+}
+
+
+/*********************/
+/*********************/
+/* SECOND CONTAINER */
+/*********************/
+/*********************/
+
+.second-inner{
+   background: #262431;
+}
+      
+/************************/
+/*     Testimonials     */
+/************************/
+
+
+.slider-1 {
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+	text-align: center;
+}
+
+.slider-1 .h2-heading {
+	margin-bottom: 3.5rem;
+}
+
+.slider-1 .slider-container {
+	position: relative;
+}
+
+.slider-1 .swiper-container {
+	position: static;
+	width: 88%;
+	text-align: center;
+}
+
+.slider-1 .swiper-button-prev:focus,
+.slider-1 .swiper-button-next:focus {
+	/* even if you can't see it chrome you can see it on mobile device */
+	outline: none;
+}
+
+.slider-1 .swiper-button-prev {
+	left: -10px;
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23484a46'%2F%3E%3C%2Fsvg%3E");
+	background-size: 18px 28px;
+}
+
+.slider-1 .swiper-button-next {
+	right: -10px;
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23484a46'%2F%3E%3C%2Fsvg%3E");
+	background-size: 18px 28px;
+}
+
+.slider-1 .card {
+	position: relative;
+	border: none;
+	background-color: transparent;
+}
+
+.slider-1 .card-image {
+	width: 96px;
+	height: 96px;
+	margin-right: auto;
+	margin-bottom: 1.5rem;
+	margin-left: auto;
+	border-radius: 50%;
+}
+
+.slider-1 .card-body {
+	padding: 0;
+}
+
+.slider-1 .testimonial-author {
+	margin-bottom: 0;
+	color: white;
+}
+
+.testimonial-text {
+    color: white!important;
+}
+
+
+
+/*********************/
+/*********************/
+/* THIRD CONTAINER */
+/*********************/
+/*********************/
+
+
+.third-container{
+    width: 100%;
+}
+.third-inner{
+    width: 100%;
+    background-color:#2f2c3d;      /* #0d6efd */
+    padding-top: 120px;
+    padding-bottom: 150px;
+    
+    
+}
+
+.third-inner h1{
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.third-inner p{
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+}
+
+ .latch-menu{
+    text-align: center;
+    color: white;
+   display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 40px;
+    
+}
+
+.latch1{
+    border-bottom: 4px solid #00C9DB;
+    color: #00C9DB;
+    padding-right: 40px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+    text-align: center;
+    font-weight: 500;
+}
+
+.latch2{
+    border-bottom: 4px solid white;
+    padding-right: 40px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.latch3{
+    border-bottom: 4px solid white;
+    padding-right: 15px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.latch1:hover{
+    border-bottom: 4px solid #00C9DB!important;
+    color: #00C9DB!important;
+    cursor: pointer;
+}
+
+.latch2:hover{
+    border-bottom: 4px solid #00C9DB!important;
+    color: #00C9DB!important;
+    cursor: pointer;
+}
+
+.latch3:hover{
+    border-bottom: 4px solid #00C9DB!important;
+    color: #00C9DB!important;
+    cursor: pointer;
+    
+}
+
+.latch1:visited{
+    border-bottom: 4px solid white;
+}
+
+.ForTablets{
+    display: none;
+}
+
+.configuring{
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-bottom: 600px ;
+}
+
+.configure1{
+    
+    float: left;
+    width: 30%;
+    
+}
+.configure2{
+    float: left;
+    width: 30%;
+    
+}
+
+.configure2 img{
+    width: 90%;
+    padding-left:  40px;
+    top: 0px;
+}
+
+.configure3{
+    float: left;
+    width: 30%;
+   
+}
+
+.configure1a{
+    
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+    
+}
+
+.configure1ai {
+    
+   color: white;
+   
+}
+
+.configure1ai h4{
+   text-align: end;
+}
+
+
+.configure1ai p{
+    text-align:end;
+    font-size: 17px;
+ }
+
+ .configure1aii{
+    width: 50%;
+    padding: 20px;
+  
+ }
+
+
+
+ 
+.configure3a{
+    
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+    
+}
+
+.configure3ai {
+    
+   color: white;
+ 
+}
+
+.configure3ai h4{
+   text-align: start;
+}
+
+
+.configure3ai p{
+    text-align:start;
+    font-size: 17px;
+ }
+
+ .configure3aii{
+    width: 50%;
+    padding: 20px;
+  
+ }
+
+ #comp1{
+    color: white;
+    background: #00C9DB;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 13px 15px;
+    transition: 0.7s;
+ }
+
+ #comp1:hover{
+    color: #00C9DB;
+    background: white;
+ }
+
+ #comp2{
+    color: white;
+    background: #00C9DB;
+    font-size: 35px;
+    border-radius: 50%;
+    padding: 13px;
+    transition: 0.7s;
+ }
+
+ 
+ #comp2:hover{
+    color: #00C9DB;
+    background: white;
+ }
+
+
+ #comp3{
+    color: white;
+    background: #00C9DB;
+    font-size: 35px;
+    border-radius: 50%;
+    padding: 15px 13px;
+    transition: 0.7s;
+ }
+
+ 
+ #comp3:hover{
+    color: #00C9DB;
+    background: white;
+ }
+
+
+ #comp4{
+    color: white;
+    background: #00C9DB;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 13px 15px;
+    transition: 0.7s;
+ }
+
+ 
+ #comp4:hover{
+    color: #00C9DB;
+    background: white;
+ }
+
+
+
+ #comp5{
+    color: white;
+    background: #00C9DB;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 13px 15px;
+    transition: 0.7s;
+ }
+
+ 
+ #comp5:hover{
+    color: #00C9DB;
+    background: white;
+ }
+
+
+ #comp6{
+    color: white;
+    background: #00C9DB;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 13px 15px;
+    transition: 0.7s;
+ }
+
+ 
+ #comp6:hover{
+    color: #00C9DB;
+    background: white;
+ }
+
+
+/* Style for tracking section */
+
+#tracking{
+    display: none;
+}
+
+.track{
+    display: flex;
+    clear: both;
+    padding: 40px 40px 40px 70px;
+}
+
+.trackingImg{
+    width:30%;
+}
+
+
+
+.trackingHeaderText h1{
+    text-align: start;
+    padding-left: 60px;
+    padding-bottom: 25px;
+}
+
+.trackingHeaderText p{
+    text-align: start;
+    padding-left: 60px; 
+    font-size: 20px;
+}
+
+
+.trackingOtherText{
+   display: flex;
+   padding-left: 40px;
+}
+
+.tracking3a{
+    display: flex;
+    flex-direction: row; 
+    padding-top: 30px;
+}
+
+
+.tracking3aii{
+    padding: 20px;
+ }
+
+
+
+ .tracking3ai {
+    
+    color: white;
+  
+ }
+ 
+ .tracking3ai h4{
+    text-align: start;
+ }
+ 
+ 
+ .tracking3ai p{
+     text-align:start;
+  }
+
+
+  /* style for monitoring section */
+
+  #monitoring{
+    display: none;
+ 
+    
+  }
+
+  .monitor{
+    display: none;
+    display: flex;
+    padding: 40px 70px 0px 40px;
+ 
+  }
+
+  .monitoringImg{
+    width: 50%;
+  }
+
+  .monitoringImg img{
+    width: 100%;
+    padding-left: 15px;
+  }
+
+  .monitoringFooterText h1{
+    text-align: start;
+    padding-left: 60px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.monitoringFooterText p{
+    text-align: start;
+    padding-left: 60px; 
+    font-size: 16px;
+}
+
+
+
+/*********************/
+/*********************/
+/* FOURTH CONTAINER */
+/*********************/
+/********************/
+
+
+.fourth-container{
+    width: 100%;
+    margin-top: 0px;
+}
+
+.fourth-inner{
+    width: 100%;
+    background-image: url('C:/Users/User/Desktop/STEVO/Leno Website/Leno main/images/video-background.jpg');
+    color: white;
+    margin-top: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    
+}
+
+
+.previewText{
+    width: 100%;
+    text-align: center;
+    padding-top:50px;
+}
+
+.previewText p{
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.previewVideo{
+    width: 100%;
+}
+
+.previewinner{
+    margin: 250px;
+    margin-bottom: 0;
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top:250px ;
+    padding-bottom: 250px;
+    border: 1px solid wheat;
+    border-radius: 20px;
+    background-image: url('C:/Users/User/Desktop/STEVO/Leno Website/Leno main/images/video-frame.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.play a{
+    text-align: center;
+    font-size: 50px;
+    border: 1px solid lightseagreen;
+    border-radius: 100%;
+    padding: 15px 15px 15px 25px;
+    background-color: transparent;
+    transition: 0.5s;
+    color: white;
+}
+
+.play a:hover{
+  background-color:#00C9DB; 
+  cursor: pointer;
+}
+
+
+/*********************/
+/*********************/
+/* Fifth CONTAINER */
+/*********************/
+/********************/
+
+
+.fifth-container{
+    width: 100%;
+}
+
+.fifth-inner{
+    width: 100%;
+    background:  #262431;
+}
+
+
+.details{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+    color: white;
+    clear: both;
+}
+
+.detailsImg{
+    width: 50%;
+}
+
+
+.detailsImg img{
+   width: 80%;
+   padding-left: 30px;
+}
+
+#calendars{
+    padding-left: 50px;
+}
+.details p{
+    padding-bottom: 40px;
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.lightboxbtn{
+    font-weight: 300;
+    border: 1px solid #00C9DB;
+    background: #00C9DB;
+    padding: 15px 30px;
+    border-radius: 30px;
+    transform: 0.5s;
+}
+
+.lightboxbtn:hover{
+    background: transparent;
+    cursor: pointer;
+}
+
+.achievements{
+   display: flex; 
+  clear: both;
+  justify-content: space-around;
+  padding-top: 100px;
+  padding-bottom: 100px;
+    
+}
+
+.happy{
+align-items: center;
+align-content: center;
+justify-content: center;
+text-align: center;
+   
+}
+
+.happy p{
+    color: white;
+    line-height: 0;
+}
+#users{
+    color: #00C9DB;
+    text-align: center;
+    font-size: 45px;
+   
+}
+
+.numba{
+font-size: 45px;
+color: white;
+
+}
+
+
+
+/*********************/
+/*********************/
+/* Sixth CONTAINER */
+/*********************/
+/********************/
+
+.sixth-inner{
+    width: 100%;
+    background: #2f2c3d;
+    padding-top: 50px ;
+}
+
+.sixth-inner h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.ens{
+    border-bottom:3px solid #00C9DB ;
+    padding-bottom: 8px;
+} 
+
+
+/***********************/
+/*     Screenshots     */
+/***********************/
+.slider-2 {
+	padding-top: 7.5rem;
+	padding-bottom: 8.125rem;
+}
+
+.slider-2 .h2-heading {
+	text-align: center;
+}
+
+.slider-2 .hr-heading {
+	display: block;
+	margin-right: auto;
+	margin-bottom: 3.75rem;
+	margin-left: auto;
+}
+
+.slider-2 .slider-container {
+	position: relative;
+}
+
+.slider-2 .swiper-container {
+	position: static;
+	width: 90%;
+	text-align: center;
+}
+
+.slider-2 .swiper-button-prev,
+.slider-2 .swiper-button-next {
+	top: 50%;
+	width: 1.125rem;
+}
+
+.slider-2 .swiper-button-prev:focus,
+.slider-2 .swiper-button-next:focus {
+	/* even if you can't see it chrome you can see it on mobile device */
+	outline: none;
+}
+
+.slider-2 .swiper-button-prev {
+	left: -0.5rem;
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E");
+	background-size: 1.125rem 1.75rem;
+}
+
+.slider-2 .swiper-button-next {
+	right: -0.5rem;
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E");
+	background-size: 1.125rem 1.75rem;
+}
+
+
+/*********************/
+/*********************/
+/* SEVENTH CONTAINER */
+/*********************/
+/*********************/
+
+.SEVENTH-inner{
+    width: 100%;
+    background-image: url('C:/Users/User/Desktop/STEVO/Leno Website/Leno main/images/download-background.jpg');
+    padding-top: 100px ;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 130px;
+    
+}
+
+.Seventh-text{
+    font-size: 25px;
+    padding-top: 150px ;
+    color: white;
+    text-align: center;
+    
+}
+
+
+
+
+/*********************/
+/*********************/
+/* EIGHT-CONTAINER */
+/*********************/
+/********************/
+
+.EIGHT-INNERMOST{
+    width: 100%;
+    background: #262431;
+}
+
+.EIGHT-INNER{
+    display: flex; 
+    justify-content: space-between;
+    padding: 100px 50px;
+    background: #262431;
+    color: white;
+    line-height: 30px;
+    
+}
+
+.EIGHT-INNER:hover{
+    cursor: pointer;
+}
+
+.social{
+    text-align: right;
+}
+
+
+#faces{
+    border:  5px solid #2f2c3d;
+    border-radius: 75%;
+    background: #2f2c3d;
+    padding: 5px 8px;
+    transition:0.3s;
+ 
+}
+
+#twitts{
+    border:  3px solid #2f2c3d;
+    border-radius: 50%;
+    background:#2f2c3d;
+    padding: 7px 8px;
+    transition: 0.3s;
+  
+}
+
+#faces:hover{
+    background:#00C9DB;
+    border:  5px solid #00C9DB;
+}
+
+#twitts:hover{
+    background:#00C9DB;
+    border:  3px solid #00C9DB;
+}
+
+
+.social-text{
+    padding-top: 20px;
+    text-align: right;
+}
+
+.copywright{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 31px;
+}
+
+.copywright p{
+    color: white;
+}
+
+.copywright p:hover{
+    cursor: pointer;
+}
+
+
+

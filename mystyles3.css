@@ -1,0 +1,16 @@
+@media  screen and ( max-width: 500px){
+
+    .body{
+        overflow-x: hidden;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+ 
+
+
+
+
+
+
+}
