@@ -6,7 +6,7 @@ body{
     
 }
 
-.head{
+.head {
 display: block;
 padding-top: 35px;
 }
@@ -24,6 +24,8 @@ padding-top: 35px;
 .head-links{
     display: none;
 }
+
+
 
 .first-inner{
     padding-left: 70px;
@@ -112,6 +114,7 @@ padding-top: 35px;
     width: 100%;  
 }
 
+
 .ForTablets{
     display: none;
     
@@ -126,7 +129,6 @@ padding-top: 35px;
 .configure1ai {
     width: 88%;
     margin-left: 0;
-    padding-left: 17px;
     
  }
 
@@ -159,7 +161,6 @@ padding-top: 35px;
 
 .configure3ai {
     width: 88%;
-    padding-left: 17px;
  }
 .configure3aii{
     width: 12%;
@@ -206,7 +207,6 @@ padding-top: 35px;
   }
 
   .monitoringImg img{
-
     padding-left: 40px;
   }
 
@@ -272,10 +272,6 @@ padding-top: 35px;
     padding-left: 30px;
     padding-top: 25px;
     padding-bottom: 60px;
-}
-
-.detailsText p{
-   letter-spacing: 0.7px;
 }
 
 #calendars{
