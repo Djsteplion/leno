@@ -1,12 +1,364 @@
 @media  screen and ( max-width: 500px){
 
-    .body{
-        overflow-x: hidden;
+.body{
+        overflow-x: none!important;
+        overflow-y: hidden!important;
         position: relative;
         width: 100%;
         height: 100%;
     }
+
+
+    
+.mySidenav a{
+    font-weight: 400;
+    font-size: 20px;
+    padding: 8px 8px 12px 15px;
+    
+}
+
+.head-logo-and-links{
+    display: none;
+}
+
+
+.menu-for-mobile{
+    display: block;
+    width: 100%;
+}
+
+.rest-menu{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  padding-top: 20px;   
+}
+
+.rest-menu img{
+    width: 70px;
+    height: 50px; 
+
+}
+
+.mob-menu{
+    padding-left: 135px;
+    padding-top: 8px;
+}
+
+/*********************/
+/*********************/
+/* FIRST CONTAINER */
+/*********************/
+/*********************/
+
+.div1{
+    margin-left: 15px;
+}
+
+.div1 h1{
+ font-size: 25px;
+}
+
+.div1 p{
+    font-size: 15px;
+    text-align: center;
+   }
+
+   .link-buttons{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .link-buttons a{
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    background: #00C9DB;
+    border-radius: 8px;
+    font-weight: 200;
+    transition: 0.5s;
+    
+}
+
+   #apple{
+     margin-left: 15px ;
+   }
+
+.link-buttons a:hover{
+    color: #00C9DB;
+    padding: 8px 12px;
+    background: transparent;
+    border-radius: 8px;
+    font-weight: 200;
+    cursor: pointer;
+    
+}
+
+.div2 img{
+    margin-left: 15px;
+}
+
+
+/*********************/
+/*********************/
+/* THIRD CONTAINER */
+/*********************/
+/*********************/
+
+.third-inner p{
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.latch-menu{
+    display: block;
+    text-align: center;
+}
+
+.latch1{
+    margin-right: 40px;
+    margin-left: 40px; 
+    padding-left: 40px;
+   text-align: center;
+   
+}
+
+.latch2{
+    display: block;
+    padding-left: 0px!important;
+    padding-right: 0px; 
+    margin-right: 40px;
+    margin-left: 38px;
+    margin-top: 20px;
+    
+
+}
+
+.latch3{
+    display: block; 
+    margin-right: 27px;
+    margin-left: 24px;
+    margin-top: 15px;
+    padding-left: 12.5px;
+    text-align: center;
+}
+
+.configuring{
+    padding-left: 5px;
+}
+
+.configure1ai p, .configure3ai p{
+    font-size: 12px;
+    text-align: left;
+ }
+
+ .configure1ai h4, .configure3ai h4{
+    text-align: start;
+    padding-left: 10px;
+ }
+
+ .configure1aii , .configure3aii{
+    width: 5%;
+  }
  
+  .configure1ai, .configure3ai {
+    width: 95%;
+    margin-left: 45px;
+    margin-right: 10px;
+    
+ }
+
+
+  .configure2 img{
+    padding-left: 34%;
+ }
+
+ .track{
+    padding-left: 10px;
+ }
+
+ .trackingImg img{
+    width: 100%;
+    padding-left: 20px;  
+    
+}
+
+ .trackingOtherText{
+    padding-left: 10px;
+ }
+
+ .trackingHeaderText h1{
+    padding-left: 20px;
+}
+
+.trackingHeaderText p{
+    padding-left: 20px; 
+    text-align: left; 
+}
+
+.tracking3ai h4{
+   padding-left: 8px;
+}
+
+.tracking3ai p{
+    text-align: left;
+}
+
+.monitor{
+    padding-left: 10px;
+}
+
+.monitoringFooterText h1 , .monitoringFooterText p{
+    padding-left: 35px;
+  }
+
+ .monitoringFooterText p{
+    text-align: left;
+ }
+
+ .monitoringImg{
+    width: 100%;
+ }
+
+ .monitoringImg img{
+   width: 100%;
+   padding-left: 35px;
+ }
+
+ /*********************/
+/*********************/
+/* FOURTH CONTAINER */
+/*********************/
+/*********************/
+
+.fourth-inner{
+   background-position: center;
+   background-size: contain;
+}
+
+
+.previewText p{
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.previewinner{
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top:65px ;
+    padding-bottom: 75px;
+    margin-left: 50px;
+    background-position: center;
+    
+}
+
+/*********************/
+/*********************/
+/* Fifth CONTAINER */
+/*********************/
+/********************/
+
+.details{
+    padding-left: 10px;
+}
+
+.detailsImg{
+    width: 100%;
+}
+
+.detailsText p{
+ font-size: 15px;
+ padding-right: 10px;
+}
+
+#calendars{
+    padding-left: 10px; 
+}
+
+#users{
+    font-size: 10px;
+}
+
+.achievements{
+   padding: 7px;
+   padding-top: 22px;
+}
+
+.numba{
+font-size: 10px;
+color: white;
+}
+
+.happy p{
+    line-height: 15px;
+    font-size: 10px;
+}
+
+/*********************/
+/*********************/
+/* SEVENTH CONTAINER */
+/*********************/
+/*********************/
+
+.Seventh-text h4{
+    font-size: 17px ;
+}
+
+
+.links-buttons a{
+    padding: 6px 7px;
+    background: #00C9DB;
+    border-radius: 15px;
+    font-weight: 80;
+    transition: 0.4s;
+    font-size: 13px;
+    margin: 10px;
+    
+}
+
+.links-buttons a:hover{
+    color: #00C9DB;
+    text-decoration-line: none;
+    border: 1px solid #00C9DB;
+    padding: 6px 7px;
+    background: transparent;
+    border-radius: 10px;
+    font-weight: 80;
+    cursor: pointer;
+    
+}
+
+.links-buttons{
+   display: flex;
+   flex-direction: column;
+   margin: 40px;
+}
+
+.Seventh-image{
+    width:100%;
+    padding-top: 35px;
+}
+.Seventh-image img{
+    width: 70%;
+}
+
+
+
+/*********************/
+/*********************/
+/* EIGHT-CONTAINER */
+/*********************/
+/********************/
+
+
+.EIGHT-INNER{
+    padding-left: 32.5px;
+}
+
+.copywright{
+    padding-left: 32.5px;
+}
 
 
 
@@ -14,3 +366,21 @@
 
 
 }
+
+
+
+
+
+@media  screen and ( max-width: 340px){
+
+    .div1{
+        margin-left: 30px;
+    }
+
+    .div2 img{
+        margin-left: 30px;
+    }
+
+
+}
+
