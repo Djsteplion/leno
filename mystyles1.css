@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
 }
@@ -11,16 +12,14 @@ body{
 
 .first-inner{
     background-color: black;
-    background-image: url('images/header-background.jpg');
+    background-image: url('C:/Users/User/Desktop/STEVO/Leno Website/Leno main/images/header-background.jpg');
     color: white;
     padding-left: 100px;
     padding-right: 105px;
     padding-bottom: 100px;
 }
 
-.head{
-    display: none;
-}
+
 
 .mySidenav{
     height: 100%;
@@ -56,6 +55,9 @@ body{
     font-size: 36px;
 }
 
+.head{
+    display: none;
+}
 .menu-for-mobile{
     display: none;
 }
@@ -75,8 +77,6 @@ body{
 .head-logo-and-links{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    width: 100%;
 }
 
 .head-links{
@@ -697,7 +697,7 @@ body{
 
 .fourth-inner{
     width: 100%;
-    background-image: url('images/video-background.jpg');
+    background-image: url('C:/Users/User/Desktop/STEVO/Leno Website/Leno main/images/video-background.jpg');
     color: white;
     margin-top: 0;
     text-align: center;
@@ -733,7 +733,7 @@ body{
     padding-bottom: 250px;
     border: 1px solid wheat;
     border-radius: 20px;
-    background-image: url('images/video-frame.jpg');
+    background-image: url('C:/Users/User/Desktop/STEVO/Leno Website/Leno main/images/video-frame.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -937,7 +937,7 @@ color: white;
 
 .SEVENTH-inner{
     width: 100%;
-    background-image: url('images/download-background.jpg');
+    background-image: url('C:/Users/User/Desktop/STEVO/Leno Website/Leno main/images/download-background.jpg');
     padding-top: 100px ;
     display: flex;
     justify-content: space-around;
@@ -951,6 +951,35 @@ color: white;
     color: white;
     text-align: center;
     
+}
+
+
+.links-buttons a{
+    color: white;
+    text-decoration-line: none;
+    background: #00C9DB;
+    padding: 23px 40px;
+    background: #00C9DB;
+    border-radius: 32px;
+    font-weight: 580;
+    transition: 0.4s;
+    
+}
+
+.links-buttons a:hover{
+    color: #00C9DB;
+    text-decoration-line: none;
+    border: 1px solid #00C9DB;
+    padding: 23px 40px;
+    background: transparent;
+    border-radius: 32px;
+    font-weight: 580;
+    cursor: pointer;
+    
+}
+
+.links-buttons{
+    margin-top: 50px;
 }
 
 
