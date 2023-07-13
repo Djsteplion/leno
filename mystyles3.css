@@ -37,11 +37,12 @@
 .rest-menu img{
     width: 70px;
     height: 50px; 
+     margin-left: -40px;   
 
 }
 
 .mob-menu{
-    padding-left: 135px;
+    margin-right: -70px;
     padding-top: 8px;
 }
 
