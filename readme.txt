@@ -1,6 +1,17 @@
+
+You can view the website here:
+
+Leno-app-landing-page: https://djsteplion.github.io/leno/
+
+
+
+
+
 FILES
 - index.html holds the entire content
-- css/mystyles.css custom css styling
+- mystyles1.css contains custom css styling for Desktop Devices
+- mystyles2.css contains custom css styling for Tablet Devices 
+- mystyles3.css contains custom css styling for mobile Devices
 - js/lenoscript.js custom js code with settings for sliders,and more
 - images folder contains all the images
 
