@@ -82,6 +82,7 @@
 
    #apple{
      margin-left: 15px ;
+     padding: 8px 15px;      
    }
 
 .link-buttons a:hover{
@@ -93,6 +94,11 @@
     cursor: pointer;
     
 }
+
+#apple:hover{
+     padding: 8px 15px;      
+   }
+        
 
 .div2 img{
     margin-left: 15px;
